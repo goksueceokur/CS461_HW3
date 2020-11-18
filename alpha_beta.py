@@ -48,9 +48,6 @@ def print_pruned(depth, index):
         print("Node {} with value {} is pruned".format(ALPHABET[index - 4], EVAL_LIST[index - 4]))
         return
 
-    else:
-        print("Sıçtık")
-
 
 def main():
     print(alpha_beta(False))
