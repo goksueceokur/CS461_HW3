@@ -50,6 +50,8 @@ def print_pruned(depth, index):
 
 
 def main():
+    takenInput = input("give input: ")
+    EVAL_LIST = takenInput.split(" ")
     print(alpha_beta(False))
     pass
 
