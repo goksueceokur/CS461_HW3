@@ -93,6 +93,7 @@ def alpha_beta(input_list, is_minimizing, depth = 0, index = 0, alpha=-inf, beta
             print(('\t' * depth), turn, "chose", direction, "node at depth", depth, "and has a value", max_children)
 
         return direction, max_children
+    return None, None
 
 def print_pruned(input_list, depth, index):
     if depth == TREE_DEPTH:
